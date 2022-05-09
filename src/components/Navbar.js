@@ -1,9 +1,17 @@
-import React from 'react'
+import React from 'react';
 
 export const Navbar = () => {
   return (
-    <div>
-        
-    </div>
+    <nav
+    className='navbar navbar-dark bg-dark'
+    >
+        <div
+        className='container'
+        >
+            <a 
+            href='/'
+            className='navbar-brand'>React Redux App</a>
+        </div>
+    </nav>
   )
 }
